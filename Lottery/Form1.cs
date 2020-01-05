@@ -140,8 +140,8 @@ namespace Lottery
                     #endregion
 
             #region 将中奖的用户展示在控件中
-                    list_win = new BindingList<Win>(list_win.OrderByDescending(o => o.Id).ToList());
-                    dataGridView1.DataSource = list_win;
+           list_win = new BindingList<Win>(list_win.OrderByDescending(o => o.Id).ToList());
+           dataGridView1.DataSource = list_win;
                     #endregion
                 }
             else
